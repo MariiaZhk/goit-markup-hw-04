@@ -398,7 +398,7 @@ img {
 }
 
 .customers-icon-link:hover,
-.contacts-icon-link:focus {
+.conracts-icon-link:focus {
   border-color: var(--ocean-pressed-state-color);
   color: var(--ocean-pressed-state-color);
 }
@@ -504,7 +504,7 @@ img {
   background: var(--cloud-light-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
