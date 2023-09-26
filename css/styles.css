@@ -395,6 +395,7 @@ img {
   border: 1px solid var(--light-slate-helper-text);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: currentColor;
 }
 
 .customers-icon-link:hover,
@@ -639,8 +640,14 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover .modal-btn-icon,
-.modal-btn:focus .modal-btn-icon {
+.modal-btn:hover,
+.modal-btn:focus {
   border: none;
   background-color: var(--ocean-pressed-state-color);
+  fill: var(--white-background-color);
+}
+
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+  fill: var(--white-background-color);
 }
