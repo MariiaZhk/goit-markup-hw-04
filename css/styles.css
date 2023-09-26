@@ -15,6 +15,7 @@
   --items: 3;
 }
 
+/* COMMON */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate-text-color);
@@ -114,6 +115,7 @@ img {
   color: var(--iris-primary-brand-color);
 }
 
+/* HEADER */
 .header {
   border-bottom: 1px solid var(--cornflower-accent-color);
   display: flex;
@@ -205,6 +207,7 @@ img {
   color: var(--ocean-pressed-state-color);
 }
 
+/* HERO */
 .hero {
   margin: 0 auto;
   max-width: 1440px;
@@ -254,6 +257,7 @@ img {
   background-color: var(--ocean-pressed-state-color);
 }
 
+/* FEATURES */
 .features {
   padding: 120px 0;
 }
@@ -271,7 +275,6 @@ img {
   width: 264px;
   border-radius: 4px;
   background-color: var(--cloud-light-color);
-  flex-shrink: 0;
   margin-bottom: 8px;
 }
 
@@ -287,6 +290,7 @@ img {
   margin-bottom: 8px;
 }
 
+/* WORK */
 .work {
   padding-top: 0;
 }
@@ -301,6 +305,7 @@ img {
   width: 360px;
 }
 
+/* TEAM */
 .team {
   padding: 120px 0;
   background-color: var(--cloud-light-color);
@@ -366,6 +371,7 @@ img {
 .team-icon {
 }
 
+/* CUSTOMERS */
 .customers-list {
   display: flex;
   align-items: center;
@@ -392,7 +398,7 @@ img {
 }
 
 .customers-icon-link:hover,
-.contacts-item-link:focus {
+.contacts-icon-link:focus {
   border-color: var(--ocean-pressed-state-color);
   color: var(--ocean-pressed-state-color);
 }
@@ -401,6 +407,7 @@ img {
   fill: currentColor;
 }
 
+/* FOOTER */
 .footer {
   background-color: var(--navy-blue-dark-color);
   padding: 100px 0;
@@ -469,6 +476,7 @@ img {
 .footer-icon {
 }
 
+/* PORTFOLIO */
 .portfolio {
   padding-top: 96px;
 }
@@ -574,6 +582,7 @@ img {
   transform: translateY(0);
 }
 
+/* MODAL WINDOW */
 .backdrop {
   position: fixed;
   top: 0;
@@ -583,9 +592,8 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   backdrop-filter: blur(2px);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) visibility 250ms
-    cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -632,7 +640,7 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  bottom: none;
+  border: none;
   background-color: var(--ocean-pressed-state-color);
   fill: var(--white-background-color);
 }
